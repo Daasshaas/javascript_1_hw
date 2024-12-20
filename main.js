@@ -15,22 +15,20 @@ let userName = prompt("Як вас звати?");
 console.log(userName);
 
 let result = confirm("Підтвердити дію на сайті");
-console.log(result);
-if (Boolean (true)) {
+if (result) {
     alert("Дякую за підтвердження!");
 }
 
-if (Boolean (false)) {
+else {
    alert("Дію відмінено!");
 }
 
 alert("Дія небезпечна");
 let result2 = confirm("Підтвердити дію на сайті");
-console.log(result2);
-if (Boolean (true)) {
+if (result2) {
     alert("Дякую за підтвердження!");
 }
 
-if (Boolean (false)) {
+else {
    alert("Дію відмінено!");
 }
